@@ -1,0 +1,132 @@
+/* Main                                                                        */
+/*********************************************************************************/
+#main
+{
+    float: left;
+    position: relative;
+    overflow: auto;
+    width: 80%;
+	padding: 3em 50px 5em 50px;
+	background: white;
+    text-align: left;
+    margin-left: 20%;
+}
+
+div[id ^= "ex"] h3 , h4[id = "details"]{
+    color: red;
+}
+
+div[id ^= "ex"] {
+    border-bottom: 1px solid gray;
+    margin-top: 50px;
+}
+
+div[id = "home"] h4 {
+    background:rgba(250,250,250,0.5);
+}
+
+div[id = "home"] {
+    background-image: url(imagens/fig10.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px red;
+}
+
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header
+{
+    position: fixed;
+    float: left;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+#logo h1
+{
+    display: block;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo span
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.3);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.5);
+}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+#menu li
+{
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#menu li a
+{
+    display: block;
+    padding: 2em;
+    text-align: center;
+    text-decoration:  none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 10%;
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+}
+
+/*********************************************************************************/
+
+/*********************************************************************************/
+
+html, body
+{
+    height: 100%;
+    overflow: auto;
+}
+
+em {
+    color: blue;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #202020;
+    background-attachment: fixed;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #444444;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
